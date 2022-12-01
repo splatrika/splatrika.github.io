@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Systemagedon",
+        "github": "https://github.com/splatrika/systemagedon_mobile",
+        "game": "/games/systemagedon/index.html"
+    },
+    {
+        "id": 2,
+        "name": "Long Long Step",
+        "github": "https://github.com/splatrika/long-long-step",
+        "game": "/games/long-long-step/index.html"
+    }
+]
