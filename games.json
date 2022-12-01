@@ -10,5 +10,17 @@
         "name": "Long Long Step",
         "github": "https://github.com/splatrika/long-long-step",
         "game": "/games/long-long-step/index.html"
+    },
+    {
+        "id": 3,
+        "name": "New Super Stack XL",
+        "github": "https://github.com/splatrika/stack-clone",
+        "game": "/games/stack-clone/index.html"
+    },
+    {
+        "id": 4,
+        "name": "Mob Arena Mobile",
+        "github": "https://github.com/splatrika/mob-arena-mobile",
+        "game": "/games/mob-arena-mobile/index.html"
     }
 ]
