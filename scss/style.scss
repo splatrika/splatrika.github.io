@@ -112,19 +112,27 @@ p {
 
 .container {
     flex: 100%;
-    padding: 90px;
+    overflow: scroll;
     // height: 100%;
     // box-sizing: content-box;
 }
 
+.container-content {
+    padding: 90px;
+}
+
 .left-container {
     background-color: white;
-    padding-right: 45px;
+    .container-content {
+        padding-right: 45px;
+    }
 }
 
 .right-container {
-    padding-left: 45px;
     background-color: #f3f2fc;
+    .container-content {
+        padding-left: 45px;
+    }
 }
 
 .time-line-block {
@@ -239,10 +247,14 @@ a.button-disabled {
         display: block;
     }
     .left-container {
-        padding-right: 90px;
+        .container-content {
+            padding-right: 90px;
+        }
     }
 
     .right-container {
-        padding-left: 90px;
+        .container-content {
+            padding-left: 90px;
+        }
     }
 }

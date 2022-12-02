@@ -144,17 +144,25 @@ p {
 
 .container {
   flex: 100%;
+  overflow: scroll;
+}
+
+.container-content {
   padding: 90px;
 }
 
 .left-container {
   background-color: white;
+}
+.left-container .container-content {
   padding-right: 45px;
 }
 
 .right-container {
-  padding-left: 45px;
   background-color: #f3f2fc;
+}
+.right-container .container-content {
+  padding-left: 45px;
 }
 
 .time-line-block {
@@ -271,10 +279,10 @@ a.button-disabled {
   .root {
     display: block;
   }
-  .left-container {
+  .left-container .container-content {
     padding-right: 90px;
   }
-  .right-container {
+  .right-container .container-content {
     padding-left: 90px;
   }
 }/*# sourceMappingURL=style.css.map */
