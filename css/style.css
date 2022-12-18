@@ -14,8 +14,9 @@ body {
 body {
   background-color: #353442;
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+  color: rgb(66, 66, 66);
   display: flex;
   justify-content: center;
 }
@@ -29,6 +30,7 @@ h6 {
   margin: 0;
   padding: 0;
   font-family: "raleway";
+  color: black;
 }
 
 h1 {
@@ -47,6 +49,10 @@ h2 {
 
 .bold {
   font-weight: 700;
+}
+
+b {
+  color: black;
 }
 
 .light {
@@ -70,6 +76,7 @@ p {
 }
 .row .title {
   flex: 0 0 132px;
+  color: black;
 }
 
 .star {
@@ -176,7 +183,6 @@ p {
   margin-bottom: 15px;
 }
 .time-line-block .game-info h6 {
-  font-family: "Courier New", Courier, monospace;
   font-size: 16px;
 }
 .time-line-block .game-info .info {
@@ -278,6 +284,9 @@ a.button-disabled {
 @media (max-width: 980px) {
   .root {
     display: block;
+  }
+  .container {
+    overflow: hidden;
   }
   .left-container .container-content {
     padding-right: 90px;
