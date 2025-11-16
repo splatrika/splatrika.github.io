@@ -1,7 +1,8 @@
 {
   "player": {
     "health": 5,
-    "mana": 50
+    "mana": 50,
+    "manaRefillRate": 0
   },
   "getManaFromSlimes": {
     "enabled": true,
