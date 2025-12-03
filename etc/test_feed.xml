@@ -14,7 +14,7 @@
             <currencyId>RUB</currencyId>
             <model>Test Model</model>
             <description>Test</description>
-            <param name="integerCustomField">InvalidValue</param>
+            <param name="testenum333">InvalidValue</param>
         </offer>
     </offers>
 </yml_catalog>
