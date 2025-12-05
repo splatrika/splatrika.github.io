@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "enabled": true,
+  "enabled": false,
   "baseAddress": "http://localhost:5132"
 }
