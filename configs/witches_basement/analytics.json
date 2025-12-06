@@ -1,5 +1,5 @@
 {
-  "version": 2,
-  "enabled": false,
-  "baseAddress": "http://localhost:5132"
+  "version": -2,
+  "enabled": true,
+  "baseAddress": "http://209.38.7.5:5132"
 }
