@@ -1,0 +1,20 @@
+<yml_catalog date="2025-12-02 09:00">
+    <shop>
+        <name>TestFeed3</name>
+        <company>TestFeed</company>
+        <url>https://test.example.com</url>
+    </shop>
+    <currencies>
+        <currency id="RUB" rate="1"/>
+    </currencies>
+    <offers>
+        <offer id="feedIssuesTestProduct2" available="true">
+            <name>TestProductFromFeed3</name>
+            <price>2048</price>
+            <currencyId>RUB</currencyId>
+            <model>Test Model</model>
+            <description>Test</description>
+            <param name="discounts">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</param>
+        </offer>
+    </offers>
+</yml_catalog>
